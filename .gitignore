@@ -30,3 +30,20 @@
 *.exe
 *.out
 *.app
+
+# Local-only config options
+configured.bazelrc
+
+# Python
+*.pyc
+**/.ipynb_checkpoints/
+.pytype/
+
+# Pyenv files
+.python-version
+*.venv
+.venv
+
+# Bazel artifacts
+**/bazel-*
+
