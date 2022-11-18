@@ -23,6 +23,7 @@ common_copts = [
     ],
 })
 
+
 common_linkopts = select({
     "@org_tensorflow//tensorflow:android": [
         "-latomic",
